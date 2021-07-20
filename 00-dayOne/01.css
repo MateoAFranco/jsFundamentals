@@ -1,0 +1,44 @@
+#h1-tag {
+    text-align: center;
+    color: lightgreen;
+}
+
+#h3-tag {
+    color: blue;
+}
+
+#p-tag {
+    color: red;
+}
+
+.border {
+    border: solid 4px black;
+    border-radius: 25px;
+    background-color: gray;
+}
+
+.prompt-1, .prompt-2, .prompt-3 {
+    border: solid 3px black;
+    border-radius: 25px;
+    background-color: lightgrey;
+    position: relative;
+    margin: 20px;
+}
+
+.prompt-1 {
+    width: 300px;
+}
+.prompt-2 {
+    width: 300px;
+}
+
+.prompt-3 {
+    width: 300px;
+}
+div {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}

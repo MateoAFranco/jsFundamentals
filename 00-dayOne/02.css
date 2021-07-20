@@ -1,0 +1,15 @@
+.movies-table {
+    border: solid black 2px;
+    background-color: lightskyblue;
+    margin: 0 auto;
+}
+
+#title {
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+
