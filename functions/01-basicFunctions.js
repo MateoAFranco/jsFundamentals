@@ -146,3 +146,7 @@ greeting(lastName); // first name is still undefined
 greeting(firstName, null); // null is a purposefully empty value
 
 greeting('', lastName); // EMPTY STRING 
+
+
+
+
