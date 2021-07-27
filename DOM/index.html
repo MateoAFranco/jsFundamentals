@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to DOM Manipulation</title>
+</head>
+<body>
+    <!-- DOM stands for document object model and it allows our JS to interact with the html anf css page 
+    
+    DOM is an object representation of a webpage, which can be modified with a scripting language like JS-->
+    <!-- Two primary fuctions
+        1. Making a model of an html page 
+            - When the browser loads a page, it creates a model of the page in memory
+            - The DOM specifies the way in which the browser shoukld structure the model in what is called the DOM tree. The DOM is called the object model because the dom tree is made of objects.
+        2. Acessing and changing the HTML page
+            - The DOM also provides methods and properties to access and update each object to the model, which will update what we dee in the browser
+        Usually when working with the DOM tree, we will access an element we want to work with, and then will modify, or manipulate it. 
+        
+
+        ACCESSING
+            common methods for accessing a single element 
+                - getElementByID()
+                - querySelector()
+            ommon methods for accessing multiple elements
+                - getElementsByClassName()
+                - getElementByTagName()
+                - querySelectorAll()
+        MANIPULATION
+            common methods for working with html content
+            -innerHTML
+            - textContent
+            -createElement
+
+            common methods for working with tag attributes
+            - className / id
+            - setAttribute()
+            - getAtribute()
+    -->
+
+    <!-- ! 1 -->
+
+    <p id="testParagraph">Sample Text</p>
+
+    <!-- ! 2 -->
+    <p class="sampleClass">A class paragraph</p>
+    <p class="sampleClass">A class paragraph</p>
+    <p class="sampleClass">A class paragraph</p>
+    <p class="sampleClass">A class paragraph</p>
+    <h2 class="sampleClass">A class paragraph</h2>
+    <hr>
+
+    <span id="spanTest">Hello <span style="display: none;">World</span></span>
+
+    <br />
+    <hr />
+
+    <!-- ! 3 -->
+
+    <button id="clickThis">Click</button>
+    <br />
+    <hr />
+
+    <!-- ! 4 -->
+
+    <label for="nameInput">Enter Your Name</label> <br>
+    <input type="text" placeholder="Your Name Here" id="nameInput">
+
+    <!-- We can write JS directly into our html page with a script tag, similar to how we would add a style tag -->
+
+    <!-- <script>
+        console.log('Hello from script tag!')
+    </script> -->
+
+    <!-- What if we want to use an external JS file in this webpage -->
+    <script src="script.js"></script>
+</body>
+</html>
