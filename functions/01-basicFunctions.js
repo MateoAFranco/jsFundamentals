@@ -150,3 +150,16 @@ greeting('', lastName); // EMPTY STRING
 
 
 
+let callback = (num) => {
+    // Use this area to solve the challenge!
+  if(num === 0) {
+    console.log('the number is even')
+  } else if( num % 2 === 0) {
+    console.log('the number is even')
+  } else if(num % 1 === 0) {
+    console.log('the number is odd')
+  } else {
+    console.log('what is this?')
+  }
+}
+callback(11);

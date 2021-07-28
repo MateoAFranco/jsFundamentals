@@ -59,6 +59,21 @@ document.getElementById('clickThis').addEventListener('click',function(event) {
     event.target.style.backgroundColor = 'red'
 })
 
+//!---------------------------------------------------------------------------------------
+
+// challenge time - if the button blue and you click agian, the color should turn red
+
+let button = document.getElementById('clickThisCoolButton');
+
+button.addEventListener('click', ev => {
+    if(ev.target.style.backgroundColor == 'blue') {
+        ev.target.style.backgroundColor = 'red'
+    } else {
+        ev.target.style.backgroundColor = 'blue'
+    }
+});
+//!---------------------------------------------------------------------------------------
+
 //! addEventListener - keyup
 
 let input = document.getElementById('nameInput')
@@ -75,3 +90,4 @@ input.addEventListener('keyup', e => {
         document.getElementsByTagName('p')[1].innerText = `Everyone, say hello to ${e.target.value}`
     }
 })
+
