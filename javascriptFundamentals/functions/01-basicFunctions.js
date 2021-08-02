@@ -84,7 +84,7 @@ example();
 
 // common use would be to assign these to a variable
 let myCoolFunction = function() {
-    console.loh('Anonymous Fuction');
+    console.log('Anonymous Fuction');
 }
 
 myCoolFunction();

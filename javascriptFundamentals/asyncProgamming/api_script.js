@@ -39,4 +39,4 @@ function displayRockets(data) {
     })
 }
 
-// optional challenge 
+// optional challenge
